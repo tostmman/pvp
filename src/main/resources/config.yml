@@ -1,0 +1,23 @@
+prefix: "&8[&bParty&8] &r"
+max-party-size: 4
+invite-timeout-seconds: 60
+
+# kit id used when none is given to /party teambattle or /party ffa (empty = first PvPCore kit)
+default-kit: ""
+
+# Gamemode select menu (Party Battle -> Team Battle / Party FFA), like mcpvp.club's.
+# Leave "kits" empty to show every PvPCore kit; list specific kit ids to restrict that menu.
+gamemodes:
+  team:
+    kits: []
+    min-players: 2
+  ffa:
+    kits: []
+    min-players: 2
+
+# Visual gate (wall of blocks in front of each spawn during the countdown, rising open at FIGHT!)
+door:
+  enabled: true
+  material: IRON_BARS
+  width: 3
+  height: 3

@@ -1,0 +1,15 @@
+name: PvPCoreParty
+version: 1.0.0
+main: dev.pvpcoreparty.PvPCoreParty
+api-version: "1.21"
+depend: [PvPCore]
+description: Party system, intra-party Team Battle (red vs blue) and Party FFA for PvPCore.
+commands:
+  party:
+    description: Party commands
+    usage: /party <create|invite|accept|deny|leave|kick|promote|disband|list|chat|battle|teambattle|ffa|menu>
+    aliases: [p]
+  partychat:
+    description: Send a message to your party
+    usage: /pc <message>
+    aliases: [pc]
